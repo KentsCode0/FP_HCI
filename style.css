@@ -11,7 +11,7 @@ html, body {
 }
 
 html {
-  background-image: url('Chill.gif'); 
+  background-image: url('bg.gif'); 
   background-repeat: no-repeat; 
   background-position: center; 
   background-size: cover;
@@ -24,7 +24,7 @@ body .calculator {
   width: 350px;
   height: 550px;
   border-radius: 8px;
-  background-color: #303030;
+  background-color: #57345b;
   position: absolute;
   top: 0;
   right: 0;
@@ -33,10 +33,12 @@ body .calculator {
   margin: auto;
 }
 
-
+li {
+  background-color: #fff;
+}
 
 body .calculator .showcase {
-  width: 300px;
+  width: 300px; 
   height: 75px;
   border-radius: 8px;
   position: absolute;
@@ -44,14 +46,14 @@ body .calculator .showcase {
   left: 0;
   right: 0;
   margin: auto;
-  background-color: white;
+  background-color: rgba(0.5, 0.5, 0.5, 0.5);
   display: grid;
   justify-content: right;
   place-items: center;
 }
 body .calculator .showcase p {
   font-size: 30px;
-  color: black;
+  color: rgb(255, 255, 255);
   font-family: "Consolas", serif;
   margin-right: 30px;
 }
@@ -59,7 +61,7 @@ body .calculator .math {
   width: 300px;
   height: 60px;
   font-family: "Consolas", serif;
-  background-color: #505050;
+  background-color: #57345b;
   border-radius: 8px;
   display: grid;
   place-items: center;
@@ -87,10 +89,10 @@ body .calculator .math ul li {
   cursor: pointer;
   height: 40px;
   border-radius: 8px;
-  background-color: #202020;
+  background-color: rgba(0.5, 0.5, 0.5, 0.5);
 }
 body .calculator .math ul li:hover {
-  background-color: #404040;
+  background-color: #ff0080;
 }
 body .calculator #calculate {
   width: 80px;
@@ -121,20 +123,20 @@ body .calculator .buttons ul li {
   cursor: pointer;
   height: 50px;
   border-radius: 8px;
-  background-color: #505050;
+  background-color: rgba(0.5, 0.5, 0.5, 0.5);
 }
 body .calculator .buttons ul li:hover {
-  background-color: #404040;
+  background-color: #ff0080;
 }
 body .calculator .buttons ul #delete {
   width: 150px;
   height: 50px;
 }
 body .calculator .buttons ul #delete:hover {
-  color: rgba(223, 122, 122, 0.88);
+  color: rgba(255, 255, 255, 0.88);
 }
 body .calculator .buttons ul #ac:hover {
-  color: rgb(75, 188, 129);
+  color: rgb(255, 255, 255);
 }
 body .calculator .numbers {
   width: 200px;
@@ -160,10 +162,10 @@ body .calculator .numbers ul li {
   width: 50px;
   height: 50px;
   border-radius: 8px;
-  background-color: #505050;
+  background-color: rgba(0.5, 0.5, 0.5, 0.5);
 }
 body .calculator .numbers ul li:hover {
-  background-color: #404040;
+  background-color: #ff0080;
 }
 body .calculator .symbols {
   width: 50px;
@@ -190,10 +192,9 @@ body .calculator .symbols ul li {
   width: 100px;
   height: 50px;
   border-radius: 8px;
-  background-color: #505050;
+  background-color: rgba(0.5, 0.5, 0.5, 0.5);
 }
 body .calculator .symbols ul li:hover {
-  background-color: #404040;
+  background-color: #ff0080;
 }
 
-/*# sourceMappingURL=style.css.map */
